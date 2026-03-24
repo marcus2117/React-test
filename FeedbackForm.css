@@ -1,0 +1,82 @@
+/* --------------------------------------------------------
+   Estética do Formulário de Feedback
+   -------------------------------------------------------- */
+.feedback-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.feedback-card {
+  background: #2f2f2f;
+  width: 100%;
+  max-width: 500px;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(100, 108, 255, 0.2);
+}
+
+.feedback-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.feedback-header h2 {
+  color: #646cff;
+  margin: 0;
+}
+
+.feedback-header p {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+/* --------------------------------------------------------
+   Inputs e Estilização de Foco
+   -------------------------------------------------------- */
+.form-group {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.form-group label {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #ddd;
+}
+
+.form-group input, 
+.form-group textarea {
+  padding: 0.8rem;
+  background: #1a1a1a;
+  border: 1px solid #444;
+  border-radius: 8px;
+  color: white;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus, 
+.form-group textarea:focus {
+  outline: none;
+  border-color: #646cff;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 1rem;
+  background: #646cff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-submit:hover {
+  background: #535bf2;
+}
